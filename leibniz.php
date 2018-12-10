@@ -1,16 +1,16 @@
 <?php
 function leibnizPow($i) {
-  return (-1 ** $i) / (2 * $i + 1);
+  return pow(-1, $i) / (2 * $i + 1);
 }
 
 function leibniz($n)
 {
-  $r = 0;
-  for ($i = 0; $i < $n; $i ++)
+  $r = .0;
+  for ($i = .0; $i < $n; $i++)
   {
     $r += leibnizPow($i);
   }
-  return $r;
+  return 4.0 * $r;
 }
 
-leibniz(intval($argv[1]));
+var_dump(leibniz(intval($argv[1])));
