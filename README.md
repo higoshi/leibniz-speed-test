@@ -1,4 +1,4 @@
-# leibniz
+# leibniz-speed-test
 
 速度比較用
 
