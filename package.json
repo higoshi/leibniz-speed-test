@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "asc": "yarn run asc -o wasm/dest/leibniz.wasm wasm/src/leibniz.js"
+    "asc": "$(npm bin)/asc -o wasm/dest/leibniz.wasm wasm/src/leibniz.ts"
   },
   "devDependencies": {
     "assemblyscript": "^0.3.0"

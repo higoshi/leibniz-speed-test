@@ -1,5 +1,6 @@
+const path = require('path');
 const fs = require('fs');
-var wasmFile = fs.readFileSync('./dest/leibniz.wasm');
+var wasmFile = fs.readFileSync(path.resolve(__dirname, 'dest/leibniz.wasm'));
 
 var wasm = new Uint8Array(wasmFile);
 

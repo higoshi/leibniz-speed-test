@@ -8,6 +8,17 @@ $ time node leibniz.js 100000000
 $ time php leibniz.php 100000000
 $ time ruby leibniz.ruby 100000000
 
+# go
 $ go build
 $ ./leibniz 100000000
+
+
+# wasm
+$ npm install
+$ npm run asc
+or
+$ npm install -g assemblyscript
+$ asc -o wasm/dest/leibniz.wasm wasm/src/leibniz.ts
+
+$ time node wasm/index.js 100000000
 ```
