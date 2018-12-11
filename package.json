@@ -1,0 +1,11 @@
+{
+  "name": "leibniz",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "asc": "yarn run asc -o wasm/dest/leibniz.wasm wasm/src/leibniz.js"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.3.0"
+  }
+}
