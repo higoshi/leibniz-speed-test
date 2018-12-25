@@ -20,5 +20,5 @@ or
 $ npm install -g assemblyscript
 $ asc -o wasm/dest/leibniz.wasm wasm/src/leibniz.ts
 
-$ time node wasm/index.js 100000000
+$ time node wasm/leibniz_index.js 100000000
 ```
