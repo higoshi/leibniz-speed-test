@@ -30,5 +30,5 @@ $ time mono leibniz.exe 100000000
 
 # C
 $ gcc leibniz.c -o leibniz.o
-% time ./leibniz.o 100000000
+$ time ./leibniz.o 100000000
 ```
