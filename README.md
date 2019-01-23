@@ -26,4 +26,9 @@ $ time node wasm/leibniz_index.js 100000000
 # C# mono
 $ mcs leibniz.cs
 $ time mono leibniz.exe 100000000
+
+
+# C
+$ gcc leibniz.c -o leibniz.o
+% time ./leibniz.o 100000000
 ```
